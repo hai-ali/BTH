@@ -307,92 +307,6 @@
             ]
           },
           {
-            "shape": "trust-broundary-curve",
-            "attrs": {
-              "line": {
-                "targetMarker": "",
-                "sourceMarker": ""
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "labels": [
-              {
-                "attrs": {
-                  "text": {
-                    "text": ""
-                  }
-                }
-              }
-            ],
-            "data": {
-              "type": "tm.Boundary",
-              "name": "",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "id": "fd748261-9310-4a01-874d-357db9488266",
-            "source": {
-              "x": 1210,
-              "y": -530
-            },
-            "target": {
-              "x": 1130,
-              "y": -140
-            }
-          },
-          {
-            "shape": "trust-broundary-curve",
-            "attrs": {
-              "line": {
-                "targetMarker": "",
-                "sourceMarker": ""
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "labels": [
-              {
-                "attrs": {
-                  "text": {
-                    "text": ""
-                  }
-                }
-              }
-            ],
-            "data": {
-              "type": "tm.Boundary",
-              "name": "",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "id": "93562dd4-729e-4ed6-abe6-9389661d7a63",
-            "source": {
-              "x": 240,
-              "y": -550
-            },
-            "target": {
-              "x": 240,
-              "y": -150
-            },
-            "vertices": [
-              {
-                "x": 280,
-                "y": -390
-              },
-              {
-                "x": 230,
-                "y": -220
-              }
-            ]
-          },
-          {
             "shape": "flow",
             "attrs": {
               "line": {
@@ -439,6 +353,92 @@
             ],
             "labels": [
               "Fetch orders"
+            ]
+          },
+          {
+            "shape": "trust-broundary-curve",
+            "attrs": {
+              "line": {
+                "targetMarker": "",
+                "sourceMarker": ""
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "labels": [
+              {
+                "attrs": {
+                  "text": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "fd748261-9310-4a01-874d-357db9488266",
+            "source": {
+              "x": 1210,
+              "y": -560
+            },
+            "target": {
+              "x": 1130,
+              "y": -140
+            }
+          },
+          {
+            "shape": "trust-broundary-curve",
+            "attrs": {
+              "line": {
+                "targetMarker": "",
+                "sourceMarker": ""
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "labels": [
+              {
+                "attrs": {
+                  "text": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "93562dd4-729e-4ed6-abe6-9389661d7a63",
+            "source": {
+              "x": 240,
+              "y": -550
+            },
+            "target": {
+              "x": 250,
+              "y": -170
+            },
+            "vertices": [
+              {
+                "x": 270,
+                "y": -430
+              },
+              {
+                "x": 220,
+                "y": -270
+              }
             ]
           },
           {
