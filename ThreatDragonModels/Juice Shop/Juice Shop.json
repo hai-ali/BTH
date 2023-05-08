@@ -693,6 +693,54 @@
               "name": "Authenticate credentials\n",
               "hasOpenThreats": false
             }
+          },
+          {
+            "position": {
+              "x": 328,
+              "y": -250
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Check order"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "f3b30d57-b30f-4acc-83c4-75f466444ddf",
+            "zIndex": 16,
+            "data": {
+              "type": "tm.Text",
+              "name": "Check order",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 340,
+              "y": -600
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Place order"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "06581211-5e38-4bd4-b91c-bea9aeb9cba5",
+            "data": {
+              "type": "tm.Text",
+              "name": "Place order",
+              "hasOpenThreats": false
+            },
+            "zIndex": 17
           }
         ]
       }
