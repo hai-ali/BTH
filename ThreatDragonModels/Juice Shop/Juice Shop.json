@@ -346,12 +346,101 @@
                 "x": 1030,
                 "y": -430
               }
+            ],
+            "labels": [
+              "Data Flow"
+            ]
+          },
+          {
+            "shape": "trust-broundary-curve",
+            "attrs": {
+              "line": {
+                "targetMarker": "",
+                "sourceMarker": ""
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "labels": [
+              {
+                "attrs": {
+                  "text": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "fd748261-9310-4a01-874d-357db9488266",
+            "source": {
+              "x": 1210,
+              "y": -530
+            },
+            "target": {
+              "x": 1130,
+              "y": -140
+            }
+          },
+          {
+            "shape": "trust-broundary-curve",
+            "attrs": {
+              "line": {
+                "targetMarker": "",
+                "sourceMarker": ""
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "labels": [
+              {
+                "attrs": {
+                  "text": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "93562dd4-729e-4ed6-abe6-9389661d7a63",
+            "source": {
+              "x": 240,
+              "y": -550
+            },
+            "target": {
+              "x": 240,
+              "y": -150
+            },
+            "vertices": [
+              {
+                "x": 280,
+                "y": -390
+              },
+              {
+                "x": 230,
+                "y": -220
+              }
             ]
           },
           {
             "position": {
-              "x": 705,
-              "y": -329
+              "x": 953.5,
+              "y": -467
             },
             "size": {
               "width": 112.5,
@@ -374,8 +463,8 @@
           },
           {
             "position": {
-              "x": 592.25,
-              "y": -347
+              "x": 1092.25,
+              "y": -367.03124999999807
             },
             "size": {
               "width": 112.5,
