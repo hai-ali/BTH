@@ -515,6 +515,90 @@
             }
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "c6da6fb4-8084-4570-8060-2f5a8ed16993",
+            "source": {
+              "cell": "0b49d95e-0bfe-4d9c-b02d-ecba6dad89fb"
+            },
+            "target": {
+              "cell": "20c05851-2c82-421b-838d-b5d8ec9bfde6"
+            },
+            "vertices": [
+              {
+                "x": 370,
+                "y": -240
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "0a03e09b-ee68-46f7-bf88-745a13ae7843",
+            "source": {
+              "cell": "20c05851-2c82-421b-838d-b5d8ec9bfde6"
+            },
+            "target": {
+              "cell": "0b49d95e-0bfe-4d9c-b02d-ecba6dad89fb"
+            },
+            "vertices": [
+              {
+                "x": 400,
+                "y": -560
+              }
+            ]
+          },
+          {
             "position": {
               "x": 1092.25,
               "y": -367.03124999999807
@@ -602,8 +686,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "dc01fd69-4d28-4f03-b01c-e5e22264dc2e",
             "zIndex": 15,
+            "id": "dc01fd69-4d28-4f03-b01c-e5e22264dc2e",
             "data": {
               "type": "tm.Text",
               "name": "Authenticate credentials\n",
