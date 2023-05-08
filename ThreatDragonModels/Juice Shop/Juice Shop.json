@@ -20,7 +20,7 @@
           {
             "position": {
               "x": 456,
-              "y": -479.99999999999807
+              "y": -519.96875
             },
             "size": {
               "width": 610,
@@ -307,51 +307,6 @@
             ]
           },
           {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "7ee78f4b-ab81-4a1f-8569-60f35e46d6a9",
-            "source": {
-              "cell": "e32b850b-8880-4005-abcb-9dc1742f32b3"
-            },
-            "target": {
-              "cell": "20c05851-2c82-421b-838d-b5d8ec9bfde6"
-            },
-            "vertices": [
-              {
-                "x": 1030,
-                "y": -430
-              }
-            ],
-            "labels": [
-              "Data Flow"
-            ]
-          },
-          {
             "shape": "trust-broundary-curve",
             "attrs": {
               "line": {
@@ -438,28 +393,53 @@
             ]
           },
           {
-            "position": {
-              "x": 953.5,
-              "y": -467
-            },
-            "size": {
-              "width": 112.5,
-              "height": 60
-            },
+            "shape": "flow",
             "attrs": {
-              "text": {
-                "text": "Fetch orders"
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
               }
             },
-            "visible": true,
-            "shape": "td-text-block",
-            "zIndex": 11,
-            "id": "d07b619d-86cf-44a5-a2ae-6b17e58b358c",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
             "data": {
-              "type": "tm.Text",
+              "type": "tm.Flow",
               "name": "Fetch orders",
-              "hasOpenThreats": false
-            }
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "7ee78f4b-ab81-4a1f-8569-60f35e46d6a9",
+            "source": {
+              "cell": "e32b850b-8880-4005-abcb-9dc1742f32b3"
+            },
+            "target": {
+              "cell": "20c05851-2c82-421b-838d-b5d8ec9bfde6"
+            },
+            "vertices": [
+              {
+                "x": 1140,
+                "y": -430
+              },
+              {
+                "x": 1030,
+                "y": -430
+              }
+            ],
+            "labels": [
+              "Fetch orders"
+            ]
           },
           {
             "position": {
