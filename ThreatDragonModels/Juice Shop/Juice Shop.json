@@ -27,8 +27,8 @@
               "height": 285.9375
             },
             "shape": "trust-boundary-box",
-            "id": "a4ac5e34-bb59-4a45-b83f-ce59e45cd408",
             "zIndex": -1,
+            "id": "a4ac5e34-bb59-4a45-b83f-ce59e45cd408",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -58,8 +58,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "0b49d95e-0bfe-4d9c-b02d-ecba6dad89fb",
             "zIndex": 1,
+            "id": "0b49d95e-0bfe-4d9c-b02d-ecba6dad89fb",
             "data": {
               "type": "tm.Actor",
               "name": "User",
@@ -92,8 +92,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "3dd6f5c8-6ebf-457e-a36c-9145c4c2d695",
             "zIndex": 2,
+            "id": "3dd6f5c8-6ebf-457e-a36c-9145c4c2d695",
             "data": {
               "type": "tm.Process",
               "name": "Login",
@@ -126,8 +126,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "20c05851-2c82-421b-838d-b5d8ec9bfde6",
             "zIndex": 3,
+            "id": "20c05851-2c82-421b-838d-b5d8ec9bfde6",
             "data": {
               "type": "tm.Actor",
               "name": "Juice Shop Site",
@@ -141,8 +141,8 @@
           },
           {
             "position": {
-              "x": 585,
-              "y": -269
+              "x": 1235,
+              "y": -407
             },
             "size": {
               "width": 120,
@@ -207,43 +207,6 @@
               "hasOpenThreats": false,
               "threats": []
             },
-            "id": "7ee78f4b-ab81-4a1f-8569-60f35e46d6a9",
-            "source": {
-              "x": 622,
-              "y": -269
-            },
-            "target": {
-              "cell": "20c05851-2c82-421b-838d-b5d8ec9bfde6"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
             "id": "19abaaf3-3690-4909-a6ce-c4f093fdb15a",
             "source": {
               "cell": "20c05851-2c82-421b-838d-b5d8ec9bfde6"
@@ -253,8 +216,8 @@
             },
             "vertices": [
               {
-                "x": 730,
-                "y": -329
+                "x": 1030,
+                "y": -320
               }
             ]
           },
@@ -344,6 +307,48 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "7ee78f4b-ab81-4a1f-8569-60f35e46d6a9",
+            "source": {
+              "cell": "e32b850b-8880-4005-abcb-9dc1742f32b3"
+            },
+            "target": {
+              "cell": "20c05851-2c82-421b-838d-b5d8ec9bfde6"
+            },
+            "vertices": [
+              {
+                "x": 1030,
+                "y": -430
+              }
+            ]
+          },
+          {
             "position": {
               "x": 705,
               "y": -329
@@ -359,8 +364,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "d07b619d-86cf-44a5-a2ae-6b17e58b358c",
             "zIndex": 11,
+            "id": "d07b619d-86cf-44a5-a2ae-6b17e58b358c",
             "data": {
               "type": "tm.Text",
               "name": "Fetch orders",
@@ -383,13 +388,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 12,
             "id": "c6c30ca1-62a2-4801-af44-431b20e4c78a",
             "data": {
               "type": "tm.Text",
               "name": "Store orders",
               "hasOpenThreats": false
-            },
-            "zIndex": 12
+            }
           },
           {
             "position": {
@@ -407,8 +412,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "d2aa52de-2c8f-4d7c-8b3a-4792f67ec66a",
             "zIndex": 13,
+            "id": "d2aa52de-2c8f-4d7c-8b3a-4792f67ec66a",
             "data": {
               "type": "tm.Text",
               "name": "Login request",
@@ -431,13 +436,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 14,
             "id": "6913f8e0-ea9d-43ae-b7a0-8ce0c27c6e53",
             "data": {
               "type": "tm.Text",
               "name": "Login response",
               "hasOpenThreats": false
-            },
-            "zIndex": 14
+            }
           }
         ]
       }
