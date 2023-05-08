@@ -141,8 +141,8 @@
           },
           {
             "position": {
-              "x": 1235,
-              "y": -407
+              "x": 1250,
+              "y": -390
             },
             "size": {
               "width": 120,
@@ -150,7 +150,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Orders Datastore"
+                "text": "SQL Database"
               },
               "topLine": {
                 "strokeWidth": 1,
@@ -167,7 +167,7 @@
             "zIndex": 4,
             "data": {
               "type": "tm.Store",
-              "name": "Orders Datastore",
+              "name": "SQL Database",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
