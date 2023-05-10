@@ -115,6 +115,19 @@
                   "new": false,
                   "number": 1,
                   "score": ""
+                },
+                {
+                  "id": "a50f3d49-6616-45ae-b7fe-d7230c893b3c",
+                  "title": "Injection",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "The injection attacks make application vulnerable to SQL and NoSQL injections and command injection attacks which allow attackers to access, modify and delete data. Attackers may be able to inject malicious code into the application by exploiting input validation vulnerabilities. In our dataflow case, this happens when user tries to login and when he places or fetches his orders.",
+                  "mitigation": "This can be mitigated by using parameterized queries or prepared statements which involve using placeholders rather than directly inserting user input into the query string. This will ensure that user input is not treated as executable code rather just data.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 2,
+                  "score": ""
                 }
               ]
             }
@@ -765,6 +778,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 1
+    "threatTop": 2
   }
 }
