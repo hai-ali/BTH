@@ -3,7 +3,7 @@
   "summary": {
     "title": "Juice Shop",
     "owner": "",
-    "description": "",
+    "description": "Based on this we can see the below components:\n•\tFront-End: Angular, JavaScript\n•\tBack-End: Node.js, Express.js\n•\tDatabase: SQLite\n•\tAuthentication: Passport.js, JSON Web Tokens\n•\tDeployment: Docker, Kubernetes, AWS, Azure\n",
     "id": 0
   },
   "detail": {
