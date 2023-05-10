@@ -650,6 +650,79 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "772d8732-3218-4b2d-a663-ba116d3b9f1d",
+            "source": {
+              "x": 769,
+              "y": -347
+            },
+            "target": {
+              "cell": "ca4a91cb-ef71-4246-b25b-0da37609f1c8"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "c32745cc-1e1b-488a-a2b4-981013166485",
+            "source": {
+              "cell": "ca4a91cb-ef71-4246-b25b-0da37609f1c8"
+            },
+            "target": {
+              "cell": "20c05851-2c82-421b-838d-b5d8ec9bfde6"
+            }
+          },
+          {
             "position": {
               "x": 1092.25,
               "y": -367.03124999999807
@@ -795,8 +868,8 @@
           },
           {
             "position": {
-              "x": 719,
-              "y": -330
+              "x": 720,
+              "y": -320
             },
             "size": {
               "width": 60,
