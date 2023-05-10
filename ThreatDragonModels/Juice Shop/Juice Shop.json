@@ -180,11 +180,13 @@
                 "text": "SQL Database"
               },
               "topLine": {
-                "strokeWidth": 1,
+                "stroke": "red",
+                "strokeWidth": 3,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1,
+                "stroke": "red",
+                "strokeWidth": 3,
                 "strokeDasharray": null
               }
             },
@@ -202,8 +204,22 @@
               "storesCredentials": false,
               "isEncrypted": false,
               "isSigned": false,
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "cc5743ee-29fb-41b7-af6d-183240988d62",
+                  "title": "Sensitive Data Exposure",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "This occur in web applications when sensitive data is not properly protected. In OWASP Juice Shop application, sensitive data exposure could occur in a number of ways: insecure communication, insufficient authentication or authorization and insecure storage. In our dataflow use case this can happen in both login and order placement, attacker can get exposed to user credentials and also product information or later during payment process can access credit card information.",
+                  "mitigation": "To mitigate these vulnerabilities in the OWASP Juice Shop application following improvements can be done: \n•\tSensitive data should be encrypted both in transit (using SSL/TLS) and at rest (using RSA/AES) to prevent unauthorized access.\n•\tThe application should implement strong authentication and authorization mechanisms to ensure that only authorized users are able to access sensitive data.\n•\tSensitive data like PIIs should be stored in secure locations that are inaccessible to unauthorized users. The application should also use proper access controls to prevent unauthorized users from accessing the data.\n",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 3,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -772,12 +788,43 @@
               "name": "Place order",
               "hasOpenThreats": false
             }
+          },
+          {
+            "position": {
+              "x": 719,
+              "y": -330
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "ca4a91cb-ef71-4246-b25b-0da37609f1c8",
+            "zIndex": 18,
+            "data": {
+              "type": "tm.Process",
+              "name": "Process",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
           }
         ]
       }
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 2
+    "threatTop": 3
   }
 }
