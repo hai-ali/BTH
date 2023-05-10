@@ -135,7 +135,7 @@
           {
             "position": {
               "x": 704.75,
-              "y": -407
+              "y": -450
             },
             "size": {
               "width": 112.5,
@@ -677,13 +677,12 @@
               "hasOpenThreats": false,
               "threats": []
             },
-            "id": "772d8732-3218-4b2d-a663-ba116d3b9f1d",
+            "id": "c32745cc-1e1b-488a-a2b4-981013166485",
             "source": {
-              "x": 769,
-              "y": -347
+              "cell": "ca4a91cb-ef71-4246-b25b-0da37609f1c8"
             },
             "target": {
-              "cell": "ca4a91cb-ef71-4246-b25b-0da37609f1c8"
+              "cell": "20c05851-2c82-421b-838d-b5d8ec9bfde6"
             }
           },
           {
@@ -714,13 +713,16 @@
               "hasOpenThreats": false,
               "threats": []
             },
-            "id": "c32745cc-1e1b-488a-a2b4-981013166485",
+            "id": "772d8732-3218-4b2d-a663-ba116d3b9f1d",
             "source": {
-              "cell": "ca4a91cb-ef71-4246-b25b-0da37609f1c8"
+              "cell": "20c05851-2c82-421b-838d-b5d8ec9bfde6"
             },
             "target": {
-              "cell": "20c05851-2c82-421b-838d-b5d8ec9bfde6"
-            }
+              "cell": "ca4a91cb-ef71-4246-b25b-0da37609f1c8"
+            },
+            "labels": [
+              "Data Flow"
+            ]
           },
           {
             "position": {
