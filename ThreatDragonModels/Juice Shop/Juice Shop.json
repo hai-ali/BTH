@@ -799,9 +799,12 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Order placement"
+              },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
+                "stroke": "red",
+                "strokeWidth": 3,
                 "strokeDasharray": null
               }
             },
@@ -811,13 +814,27 @@
             "zIndex": 18,
             "data": {
               "type": "tm.Process",
-              "name": "Process",
+              "name": "Order placement",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "23d64aee-ba86-449c-a476-dd8df700cc58",
+                  "title": "Cross-Site Scripting",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "Cross-Site Scripting or XSS is a vulnerability where an attacker can inject malicious scripts into a web page, allowing the attacker to steal user credentials, manipulate web page content, or perform other malicious actions. In our dataflow usecase, this can happen when user tries to login and also when he tries to put products in cart when placing order, attacker can place a malicious action or manipulate web page content in product detail pages for example.",
+                  "mitigation": "These vulnerabilities can be mitigated by following below best practices:\n•\tUser input should be validated and sanitized to ensure that it does not contain any malicious scripts.\n•\tUser input should be properly encoded to prevent any scripts from being executed\n•\tThe application can implement a Content Security Policy (CSP) to restrict the types of content that can be loaded by the application which can prevent malicious scripts from executing.\n•\tEnforce HTTPS to prevent any network-level attacks that could allow an attacker to inject malicious scripts into the application\n",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 4,
+                  "score": ""
+                }
+              ]
             }
           }
         ]
@@ -825,6 +842,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 3
+    "threatTop": 4
   }
 }
