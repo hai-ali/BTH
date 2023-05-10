@@ -85,8 +85,8 @@
                 "text": "Login"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
+                "stroke": "red",
+                "strokeWidth": 3,
                 "strokeDasharray": null
               }
             },
@@ -101,8 +101,22 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "c156a04a-e58e-4493-b911-4c8977f4ab6e",
+                  "title": "Broken Access Control",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Elevation of privilege",
+                  "description": "BAC is a common vulnerability and also exist in Juice Shop website which make application vulnerable to broken access control which can allow attacker to by authentication and access data or application functionality. This can exist because of insufficient authorization checks in place or insecure direct object references, improper error handling implementation, or through privilege escalation. In our dataflow usecase, this can happen during login process.",
+                  "mitigation": "It can be mitigated by using proper authorization checks on user for action and requested data, fixing the references and error handling issues and by conducting regular security testing.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 1,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -573,13 +587,7 @@
             "zIndex": 10,
             "connector": "smooth",
             "labels": [
-              {
-                "attrs": {
-                  "text": {
-                    "text": ""
-                  }
-                }
-              }
+              ""
             ],
             "data": {
               "type": "tm.Boundary",
@@ -590,7 +598,7 @@
             },
             "id": "fd748261-9310-4a01-874d-357db9488266",
             "source": {
-              "x": 1220,
+              "x": 1260,
               "y": -570
             },
             "target": {
@@ -720,8 +728,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "f3b30d57-b30f-4acc-83c4-75f466444ddf",
             "zIndex": 16,
+            "id": "f3b30d57-b30f-4acc-83c4-75f466444ddf",
             "data": {
               "type": "tm.Text",
               "name": "Check order",
@@ -744,19 +752,19 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 17,
             "id": "06581211-5e38-4bd4-b91c-bea9aeb9cba5",
             "data": {
               "type": "tm.Text",
               "name": "Place order",
               "hasOpenThreats": false
-            },
-            "zIndex": 17
+            }
           }
         ]
       }
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 0
+    "threatTop": 1
   }
 }
